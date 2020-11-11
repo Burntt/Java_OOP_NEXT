@@ -5,5 +5,4 @@ This repository contains all my homework from now on!
 
 Author: Berend Gort
 
-![HM2](https://github.com/Burntt/Java_OOP_HS/workflows/HM2/badge.svg?branch=main)
-# Java_OOP_NEXT
+![HW3](https://github.com/Burntt/Java_OOP_NEXT/workflows/HW3/badge.svg?branch=main)
