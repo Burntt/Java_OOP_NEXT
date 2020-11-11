@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw1/Homework1.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw1/Task1.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw2/EstimateSize.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw2/Pascal.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw2/Slang.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw3/GenericExample.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw3/MapExample.java">
+</file>
+<file name="/home/berend/Java_OOP_NEXT/src/main/java/space/harbour/hw3/MyHashMap.java">
+</file>
+</checkstyle>
