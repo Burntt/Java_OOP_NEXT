@@ -1,7 +1,9 @@
 # Java_OOP_HS
 =======
 
-This repository contains all my homework from now on!
+This repository contains all the Homework for HW3
+
+I also did the hash functions for the EXTRA POINTS!!
 
 Author: Berend Gort
 
