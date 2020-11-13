@@ -1,20 +1,21 @@
-package space.harbour.hw3;
+package space.harbour.hw5;
 
-public class MapExample {
+public class MapExampleHw5 {
     public static void main(String[] args) {
 
         // Boys
-        space.harbour.hw3.MyHashMap<String, String> contacts = new space.harbour.hw3.MyHashMap<>();
+        MyHashMapHw5<String, String> contacts = new MyHashMapHw5<>();
         contacts.put("Ahmed", "1111111");
         contacts.put("Vasilii", "2222222");
         contacts.put("Pierre", "3333333");
 
         // Girls
-        space.harbour.hw3.MyHashMap<String, String> contacts2 = new space.harbour.hw3.MyHashMap<>();
+        MyHashMapHw5<String, String> contacts2 = new MyHashMapHw5<>();
         contacts2.put("Dienke", "444444");
         contacts2.put("Wilhelmina", "555555555");
         contacts2.put("Katarina", "666666666");
         contacts.putAll(contacts2);
+
 
         System.out.println("-------------------------------------------------------------------");
         System.out.println("-----------------------------------------TESTING-------------------");
