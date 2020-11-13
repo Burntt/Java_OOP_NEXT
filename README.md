@@ -1,7 +1,9 @@
 # Java_OOP_HS
 =======
 
-This repository contains all the Homework for HW4
+This repository contains all the Homework for HW5
+
+22 tests
 
 Author: Berend Gort
 
