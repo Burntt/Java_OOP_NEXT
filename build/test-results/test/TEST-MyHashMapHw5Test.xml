@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyHashMapHw5Test" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-11-17T10:59:53" hostname="LT" time="0.01">
+  <properties/>
+  <testcase name="entrySet" classname="MyHashMapHw5Test" time="0.002"/>
+  <testcase name="containsValue" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="collection" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="keySet" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="putAll" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="remove" classname="MyHashMapHw5Test" time="0.001"/>
+  <testcase name="testReplacesValueWithSameKey" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testDoesNotContainAkey" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testContainsKeyForEmptyMap" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testRemoveAffectNewMap" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="get" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="put" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="size" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="clear" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="containsKey" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testContainsKeyForNonExistingKey" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testContainsKeyForKeyWithEquivalentHash" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testSizeIncrementSize" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testDoesIsEqualWork" classname="MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testRemoveDecrementsSize" classname="MyHashMapHw5Test" time="0.001"/>
+  <testcase name="isEmpty" classname="MyHashMapHw5Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

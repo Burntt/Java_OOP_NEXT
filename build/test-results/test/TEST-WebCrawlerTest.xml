@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WebCrawlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-17T10:59:53" hostname="LT" time="0.755">
+  <properties/>
+  <testcase name="testIfVisitIsEmpty" classname="WebCrawlerTest" time="0.524"/>
+  <testcase name="testFirstUrlIsMain" classname="WebCrawlerTest" time="0.122"/>
+  <testcase name="size" classname="WebCrawlerTest" time="0.108"/>
+  <system-out><![CDATA[true
+length of urls : 15
+https://vasart.github.io/supreme-potato/
+https://vasart.github.io/supreme-potato/experience.html
+https://vasart.github.io/supreme-potato/education.html
+https://vasart.github.io/supreme-potato/social.html
+https://vasart.github.io/supreme-potato/education.html
+https://vasart.github.io/supreme-potato/
+https://vasart.github.io/supreme-potato/experience.html
+https://vasart.github.io/supreme-potato/education.html
+https://vasart.github.io/supreme-potato/social.html
+https://vasart.github.io/supreme-potato/education.html
+https://vasart.github.io/supreme-potato/
+https://vasart.github.io/supreme-potato/experience.html
+https://vasart.github.io/supreme-potato/education.html
+https://vasart.github.io/supreme-potato/social.html
+https://vasart.github.io/supreme-potato/education.html
+Counter is:5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

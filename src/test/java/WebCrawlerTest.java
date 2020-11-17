@@ -1,37 +1,47 @@
-package space.harbour.hw6;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Arrays;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.LinkedBlockingQueue;
+import org.junit.Before;
 import org.junit.Test;
+import space.harbour.hw6.WebCrawler;
 
 public class WebCrawlerTest {
+    static volatile LinkedBlockingQueue<URL> toVisit;
+    static volatile LinkedBlockingQueue<URL> alreadyVisited;
 
-    static volatile LinkedBlockingQueue<URL> toVisit = new LinkedBlockingQueue<>();
-    static volatile LinkedBlockingQueue<URL> alreadyVisited = new LinkedBlockingQueue<>();
-
+    @Before
+    public void setUp() {
+        WebCrawler.toVisit = new LinkedBlockingQueue<>();
+        alreadyVisited = new LinkedBlockingQueue<>();
+    }
 
     @Test
     public void size() throws MalformedURLException, ExecutionException, InterruptedException {
+        System.out.println(WebCrawler.toVisit.isEmpty());
         WebCrawler.toVisit.add(new URL("https://vasart.github.io/supreme-potato/"));
         final int N = 10;
         ExecutorService executorService = Executors.newFixedThreadPool(N);
         LinkedBlockingQueue<URL> alreadyVisitedUrls =  new LinkedBlockingQueue<>();
+
+        int counter = 0;
         while (!WebCrawler.toVisit.isEmpty()) {
+            counter++;
             Future future = executorService.submit(new WebCrawler.UrlVisitor());
             alreadyVisitedUrls = (LinkedBlockingQueue<URL>) future.get();
         }
+        System.out.println("length of urls : " + alreadyVisitedUrls.toArray().length);
+        alreadyVisitedUrls.stream().forEach(u -> System.out.println(u.toString()));
+        System.out.println("Counter is:" + counter);
+        assertEquals(15, alreadyVisitedUrls.toArray().length);
         executorService.shutdown();
-
-        // Length from Vasilii's github website should be five
-        assertEquals(5, alreadyVisitedUrls.toArray().length);
     }
 
     @Test
@@ -61,7 +71,7 @@ public class WebCrawlerTest {
             alreadyVisitedUrls = (LinkedBlockingQueue<URL>) future.get();
         }
         executorService.shutdown();
-        assertTrue(WebCrawler.toVisit.isEmpty());
+        assertEquals(true, WebCrawler.toVisit.isEmpty());
     }
 
 

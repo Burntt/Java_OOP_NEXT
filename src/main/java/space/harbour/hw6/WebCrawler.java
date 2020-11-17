@@ -8,22 +8,18 @@ import java.lang.reflect.Array;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.Callable;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.ConcurrentSkipListSet;
-import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class WebCrawler {
-    static volatile LinkedBlockingQueue<URL> toVisit = new LinkedBlockingQueue<>();
-    static volatile LinkedBlockingQueue<URL> alreadyVisited = new LinkedBlockingQueue<>();
+    public static volatile LinkedBlockingQueue<URL> toVisit = new LinkedBlockingQueue<>();
+    public static volatile LinkedBlockingQueue<URL> alreadyVisited = new LinkedBlockingQueue<>();
 
     public static class UrlVisitor implements Callable {
 
@@ -95,12 +91,24 @@ public class WebCrawler {
         final int N = 10;
         ExecutorService executorService = Executors.newFixedThreadPool(N);
         LinkedBlockingQueue<URL> alreadyVisitedUrls =  new LinkedBlockingQueue<>();
+
+        int counter = 0;
         while (!toVisit.isEmpty()) {
+            counter++;
             Future future = executorService.submit(new UrlVisitor());
+
+            future.isDone();
+
             alreadyVisitedUrls = (LinkedBlockingQueue<URL>) future.get();
         }
-        System.out.println("length of urls : " + alreadyVisitedUrls.toArray().length);
-        executorService.shutdown();
 
+        System.out.println("counter=" + counter);
+        System.out.println("-----------------------------------------");
+        System.out.println("Amount of URLS : " + alreadyVisitedUrls.toArray().length);
+        executorService.shutdown();
+        for (int i = 0; i < alreadyVisitedUrls.toArray().length; i++) {
+            System.out.println(alreadyVisitedUrls.toArray()[i]);
+        }
+        System.out.println("-----------------------------------------");
     }
 }
