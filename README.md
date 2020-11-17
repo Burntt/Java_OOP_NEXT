@@ -1,10 +1,8 @@
 # Java_OOP_HS
 =======
 
-This repository contains all the Homework for HW5
-
-22 tests
+This repository contains all the Homework up untill now
 
 Author: Berend Gort
 
-![HW5](https://github.com/Burntt/Java_OOP_NEXT/workflows/HW5/badge.svg)
+![All_my_Java_Hw](https://github.com/Burntt/Java_OOP_NEXT/workflows/All_my_Java_Hw/badge.svg)
