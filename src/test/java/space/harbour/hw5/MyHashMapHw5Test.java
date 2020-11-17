@@ -1,8 +1,9 @@
+package space.harbour.hw5;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.HashSet;
 import org.junit.Test;
-import space.harbour.hw5.MyHashMapHw5;
 
 public class MyHashMapHw5Test {
 

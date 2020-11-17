@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WebCrawlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-17T10:59:53" hostname="LT" time="0.755">
+<testsuite name="space.harbour.hw6.WebCrawlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-17T13:46:08" hostname="LT" time="1.133">
   <properties/>
-  <testcase name="testIfVisitIsEmpty" classname="WebCrawlerTest" time="0.524"/>
-  <testcase name="testFirstUrlIsMain" classname="WebCrawlerTest" time="0.122"/>
-  <testcase name="size" classname="WebCrawlerTest" time="0.108"/>
+  <testcase name="testIfVisitIsEmpty" classname="space.harbour.hw6.WebCrawlerTest" time="0.917"/>
+  <testcase name="testFirstUrlIsMain" classname="space.harbour.hw6.WebCrawlerTest" time="0.095"/>
+  <testcase name="size" classname="space.harbour.hw6.WebCrawlerTest" time="0.12"/>
   <system-out><![CDATA[true
 length of urls : 15
 https://vasart.github.io/supreme-potato/

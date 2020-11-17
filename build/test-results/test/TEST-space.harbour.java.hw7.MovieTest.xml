@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="space.harbour.java.hw7.MovieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-17T13:46:09" hostname="LT" time="0.004">
+  <properties/>
+  <testcase name="setFilteredByDirectors" classname="space.harbour.java.hw7.MovieTest" time="0.0"/>
+  <testcase name="setFilteredByActor" classname="space.harbour.java.hw7.MovieTest" time="0.0"/>
+  <testcase name="setFilteredByGenre" classname="space.harbour.java.hw7.MovieTest" time="0.0"/>
+  <testcase name="sortByYear" classname="space.harbour.java.hw7.MovieTest" time="0.001"/>
+  <testcase name="sortByLength" classname="space.harbour.java.hw7.MovieTest" time="0.001"/>
+  <testcase name="sortByRating" classname="space.harbour.java.hw7.MovieTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

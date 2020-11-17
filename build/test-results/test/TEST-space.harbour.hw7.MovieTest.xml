@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="space.harbour.hw7.MovieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-17T13:46:08" hostname="LT" time="0.012">
+  <properties/>
+  <testcase name="setFilteredByDirectors" classname="space.harbour.hw7.MovieTest" time="0.003"/>
+  <testcase name="setFilteredByActor" classname="space.harbour.hw7.MovieTest" time="0.002"/>
+  <testcase name="setFilteredByGenre" classname="space.harbour.hw7.MovieTest" time="0.001"/>
+  <testcase name="sortByYear" classname="space.harbour.hw7.MovieTest" time="0.003"/>
+  <testcase name="sortByLength" classname="space.harbour.hw7.MovieTest" time="0.0"/>
+  <testcase name="sortByRating" classname="space.harbour.hw7.MovieTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
