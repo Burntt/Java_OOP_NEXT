@@ -35,6 +35,8 @@ public class MovieTest {
                 90, new String[]{"Horror", "Thriller"}, "Abdullah",
                 new String[]{"John", "Jimmy"});
         movies.add(movie3);
+
+        System.out.println("works?");
     }
 
     @Test

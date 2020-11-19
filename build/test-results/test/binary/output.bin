@@ -1,30 +1,36 @@
-!true
-!length of urls : 15
-!)https://vasart.github.io/supreme-potato/
-!8https://vasart.github.io/supreme-potato/experience.html
-!7https://vasart.github.io/supreme-potato/education.html
-!4https://vasart.github.io/supreme-potato/social.html
-!7https://vasart.github.io/supreme-potato/education.html
-!)https://vasart.github.io/supreme-potato/
-!8https://vasart.github.io/supreme-potato/experience.html
-!7https://vasart.github.io/supreme-potato/education.html
-!4https://vasart.github.io/supreme-potato/social.html
-!7https://vasart.github.io/supreme-potato/education.html
-!)https://vasart.github.io/supreme-potato/
-!8https://vasart.github.io/supreme-potato/experience.html
-!7https://vasart.github.io/supreme-potato/education.html
-!4https://vasart.github.io/supreme-potato/social.html
-!7https://vasart.github.io/supreme-potato/education.html
-!Counter is:5
-#"Successful transaction!
-#"!Bills distribution :{50=2, 20=5}
-#"
-#%Successful transaction!
-#%Bills distribution :{5=1}
-#%
-#%!Sorry not enough money for this!
-#%
-#&!Sorry not enough money for this!
-#&
-#&!Sorry not enough money for this!
-#&
+works?
+works?
+works?
+works?
+works?
+works?
+%'true
+%'length of urls : 15
+%')https://vasart.github.io/supreme-potato/
+%'8https://vasart.github.io/supreme-potato/experience.html
+%'7https://vasart.github.io/supreme-potato/education.html
+%'4https://vasart.github.io/supreme-potato/social.html
+%'7https://vasart.github.io/supreme-potato/education.html
+%')https://vasart.github.io/supreme-potato/
+%'8https://vasart.github.io/supreme-potato/experience.html
+%'7https://vasart.github.io/supreme-potato/education.html
+%'4https://vasart.github.io/supreme-potato/social.html
+%'7https://vasart.github.io/supreme-potato/education.html
+%')https://vasart.github.io/supreme-potato/
+%'8https://vasart.github.io/supreme-potato/experience.html
+%'7https://vasart.github.io/supreme-potato/education.html
+%'4https://vasart.github.io/supreme-potato/social.html
+%'7https://vasart.github.io/supreme-potato/education.html
+%'Counter is:5
+)(Successful transaction!
+)(!Bills distribution :{50=2, 20=5}
+)(
+)+Successful transaction!
+)+Bills distribution :{5=1}
+)+
+)+!Sorry not enough money for this!
+)+
+),!Sorry not enough money for this!
+),
+),!Sorry not enough money for this!
+),

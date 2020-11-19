@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="space.harbour.hw5.MyHashMapHw5Test" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-11-18T16:51:17" hostname="LT" time="0.012">
+<testsuite name="space.harbour.hw5.MyHashMapHw5Test" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-11-19T18:46:53" hostname="LT" time="0.01">
   <properties/>
   <testcase name="entrySet" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
-  <testcase name="containsValue" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
+  <testcase name="containsValue" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="collection" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
-  <testcase name="keySet" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
+  <testcase name="keySet" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="putAll" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="remove" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
   <testcase name="testReplacesValueWithSameKey" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
-  <testcase name="testDoesNotContainAkey" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
+  <testcase name="testDoesNotContainAkey" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
   <testcase name="testContainsKeyForEmptyMap" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="testRemoveAffectNewMap" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
   <testcase name="get" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="put" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="size" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
-  <testcase name="clear" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
-  <testcase name="containsKey" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
+  <testcase name="clear" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
+  <testcase name="containsKey" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
   <testcase name="testContainsKeyForNonExistingKey" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="testContainsKeyForKeyWithEquivalentHash" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="testSizeIncrementSize" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="testDoesIsEqualWork" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <testcase name="testRemoveDecrementsSize" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
-  <testcase name="isEmpty" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.001"/>
+  <testcase name="isEmpty" classname="space.harbour.hw5.MyHashMapHw5Test" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

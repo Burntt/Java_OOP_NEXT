@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="space.harbour.hw9.BankTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-19T18:46:53" hostname="LT" time="0.005">
+  <properties/>
+  <testcase name="testNotifyAllObservers" classname="space.harbour.hw9.BankTest" time="0.001"/>
+  <testcase name="testGetNewAtmDispenser" classname="space.harbour.hw9.BankTest" time="0.0"/>
+  <testcase name="testAddAtmObserver" classname="space.harbour.hw9.BankTest" time="0.0"/>
+  <testcase name="testRemoveAtmObserver" classname="space.harbour.hw9.BankTest" time="0.0"/>
+  <testcase name="testGetTotalBalance" classname="space.harbour.hw9.BankTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
