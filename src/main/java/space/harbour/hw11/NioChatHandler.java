@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class NioChatHandler extends Thread {
-    private static String name;
+    String name;
     Socket clientSocket;
     NioChatServer server;
     PrintWriter out;
@@ -43,7 +43,7 @@ public class NioChatHandler extends Thread {
 
     }
 
-    public static String processRequest(String request) {
+    public String processRequest(String request) {
         System.out.println("Server receive message from " + name + " > " + request);
         return request;
     }
